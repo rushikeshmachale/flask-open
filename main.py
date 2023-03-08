@@ -32,6 +32,5 @@ def main():
     return jsonify({'Status': str(result)})
 
 
-
 if __name__ == '__main__':
     app.run(debug=True)
